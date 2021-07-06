@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./all.css">
-    <link rel="stylesheet" href="./sytle.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
-        <div class="caption">
-            <h1>Welcome</h1>
-        </div>
-        <div class="avatar">
-            <img src="./avatar.jpg" alt="">
+        <div class="picture">
+            <img src="./illustration.png" alt="">
+            <div class="shadow"></div>
         </div>
         <div class="input-box">
-            <input type="text" placeholder="Username">
-            <input type="text" placeholder="Password">
-            <input type="button" value="Login">
-        </div>
-        <div class="options">
-            <ul>
-                <li>Forgot <a href="">Username / Password?</a></li>
-                <li>Don't have an account? <a href="">Sign up</a></li>
-            </ul>
-            <div>
+            <div class="options">
+                <span><a href="">Already members</a></span>
+                <span><a href="">Need help?</a></span>
+            </div>
+            <div class="inputs">
+                <div class="inputs-text">
+                    <input type="text" placeholder="Enter your username">
+                    <input type="text" placeholder="Enter your password">
+                    <a href=""><i class="fa fa-eye-slash password-icon"></i></a>
+                </div>
+                <input type="button" value="sign in">
+            </div>
+            <div class="account">
+                <div>
+                    <a href="">Don't have an account yet?</a>
+                </div>
+                <div>
+                    <a href="">Create an account</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
